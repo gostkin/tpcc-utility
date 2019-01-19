@@ -29,7 +29,7 @@ os.chdir(ACTIVE_DIR)
 if os.path.exists("task"):
     rm_process = subprocess.check_call(["rm -rf %s" % ACTIVE_TASK_DIR], shell=True)
 
-ln_dir = os.path.join(ACTIVE_DIR, "..",  sys.argv[1])
+ln_dir = os.path.join(ACTIVE_DIR, "..",  task_arg)
 
 print("moving to " + ln_dir)
 
