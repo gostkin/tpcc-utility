@@ -1,2 +1,2 @@
-# tpcc-utility
-Utility for task management for tpcc course
+# tpcc-switch
+Utility for switching tpcc tasks
